@@ -11,7 +11,7 @@ It probably won't work if the folder or something in it is open in another progr
 *Murderize* is set up to use [`sbt-native-packager`](https://github.com/sbt/sbt-native-packager) to generate the a runnable script or batch file.
 
     sbt stage
-    target/universal/stage/bin/urderize "some/directory"
+    target/universal/stage/bin/murderize "some/directory"
 
 If you have [WiX](http://wixtoolset.org/) installed, you can also package a Windows `.msi` installer.
 
